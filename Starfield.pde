@@ -21,7 +21,7 @@ void draw()
   Particle.show();
   Particle.move();
   }
-  if(ParticleArray.size() <= 50){
+  if(ParticleArray.size() <= 150){
   ParticleArray.add(new NormalParticle());
   }
 }
